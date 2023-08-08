@@ -1,48 +1,33 @@
 import React from 'react';
-import Youtube from 'react-youtube';
 import ReactPlayer from 'react-player';
 
 export const YoutubeEmbed = () => {
-    const opts = {
-        //height and with fit contaitner
-        height: '100%',
-        width: '100%',
-        playerVars: {
-            // https://developers.google.com/youtube/player_parameters
-            autoplay: 1,
-            mute: 1,
-            controls: 1,
-            listType: 'playlist',
-            list: 'PLef6OG5U_LcEBSzyXs4QhxZ0j6HKZ_2e4',
-        },
-    };
+
     return (
         <>
             <div id="vids">
-                <ReactPlayer width="100%" height="100%" url="https://www.youtube.com/playlist?list=PLef6OG5U_LcEBSzyXs4QhxZ0j6HKZ_2e4/"
+                <ReactPlayer pip="true" width="100%" height="100%" url="https://www.youtube.com/playlist?list=PLef6OG5U_LcEBSzyXs4QhxZ0j6HKZ_2e4/"
                     config={{
                         youtube: {
                             playerVars: {
                                 autoplay: 1,
                                 mute: 1,
                                 controls: 1,
-                                listType: 'playlist',
-                                list: 'PLef6OG5U_LcEBSzyXs4QhxZ0j6HKZ_2e4',
+                                enablejsapi: 1,
                             }
                         }
                     }}
                 />
             </div>
             <div id="vids2">
-            <ReactPlayer width="100%" height="100%" url="https://www.youtube.com/playlist?list=PLef6OG5U_LcGwUvzZZcZytgm-57Tx_vx2"
+            <ReactPlayer pip="true" width="100%" height="100%" url="https://www.youtube.com/playlist?list=PLef6OG5U_LcGwUvzZZcZytgm-57Tx_vx2"
                     config={{
                         youtube: {
                             playerVars: {
                                 autoplay: 1,
                                 mute: 1,
                                 controls: 1,
-                                listType: 'playlist',
-                                list: 'PLef6OG5U_LcGwUvzZZcZytgm-57Tx_vx2',
+                                enablejsapi: 1,
                             }
                         }
                     }}
