@@ -15,9 +15,7 @@ function App() {
         <button className="hideButton" onClick={()=>{setHide(!hide)}}>show|hide</button>
         <img id="pic" width="350px" src={require('./dilla.jpg')} alt="j dilla"/>
         <div id="shell" style={{display: hide ? "none" : "flex"}}>
-            <div id="vids">
             <YoutubeEmbed/>
-            </div>
             <SoundcloudEmbeds />
             <Today />
             <ArtistSpotlight />
