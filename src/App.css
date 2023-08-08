@@ -100,7 +100,7 @@ h1{
   padding: 5px;
   width: min-content;
   height: min-content;
-  font-size: 20px;
+  font-size: 16px;
 }
 
 #artistSpotlight{
@@ -178,6 +178,7 @@ h1{
       top: unset;
       left: 525px;
       z-index: 10;
+      font-size: 20px;
     }
 
     #today {
@@ -231,7 +232,7 @@ h1{
   
       #today {
         right: 50px;
-        font-size: 30px;
+        font-size: 24px;
         z-index: 20;
       }
   
