@@ -13,7 +13,6 @@ export const YoutubeEmbed = () => {
                                 autoplay: 1,
                                 mute: 1,
                                 controls: 1,
-                                enablejsapi: 1,
                             }
                         }
                     }}
@@ -27,7 +26,6 @@ export const YoutubeEmbed = () => {
                                 autoplay: 1,
                                 mute: 1,
                                 controls: 1,
-                                enablejsapi: 1,
                             }
                         }
                     }}
