@@ -1,5 +1,7 @@
 import './App.css';
 import RapListBackground from './ListBackground';
+import Discord from './Discord';
+import TwitterTimeline from './Twitter';
 import { SoundcloudEmbeds, YoutubeEmbed } from './Embeds';
 import {Today, ArtistSpotlight} from './Today';
 import { useState } from 'react';
@@ -10,7 +12,7 @@ function App() {
 
     return (
       <div className="App">
-        <h1><a href="/index">rap is dead</a></h1>
+       <h1><a href="/index">rap is dead</a></h1>
         <button className="hideButton" onClick={()=>{setHide(!hide)}}>show|hide</button>
         <img id="pic" width="350px" src={require('./dilla.jpg')} alt="j dilla"/>
         <div id="shell" style={{display: hide ? "none" : "flex"}}>
@@ -18,6 +20,8 @@ function App() {
             <SoundcloudEmbeds />
             <Today />
             <ArtistSpotlight />
+            <Discord />
+            <TwitterTimeline />
         </div>
       <RapListBackground />
       </div>

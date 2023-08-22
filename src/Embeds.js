@@ -44,9 +44,9 @@ export const SoundcloudEmbeds = ({width, height, width2, height2}) => {
                 soundcloud: {
                     options: {
                         auto_play: false,
-                        show_comments: false,
-                        show_user: false,
-                        show_reposts: false,
+                        show_comments: true,
+                        show_user: true,
+                        show_reposts: true,
                         show_teaser: true,
                         visual: false,
                         color: '#ff5500'
