@@ -8,6 +8,7 @@ const RapListBackground = () => {
         'babyface ray - summer\'s mine',
         'veeze - ganger',
         'niontay - dontay\'s inferno',
+        'hitech - hitech',
         'sharc - sharc wave',
         'icytwat - final boss',
         'valee, harry fraud - virtuoso',
@@ -22,6 +23,7 @@ const RapListBackground = () => {
         'danny jpeg - scarin the hoes',
         'big sad 1900 - die a legend',
         'bktherula - LVL5 P1',
+        'chow lee - hours after the club',
         'bg lonnie bands - cant band the bm 2',
         'dae money - slae season 2',
         'shaudy kash - poundtown 6mix',
@@ -34,7 +36,8 @@ const RapListBackground = () => {
         'skilla baby - we eat the most',
         'young nudy - gumbo',
         'babytron - just in case',
-        'keem, kendrick - the hillbillies'
+        'keem, kendrick - the hillbillies',
+        'osamason - osama season',
     ];
 
     const rappers = [
@@ -48,10 +51,12 @@ const RapListBackground = () => {
         'subiibabii',
         '454',
         'shaudy kash',
+        'osamason',
         'rxk',
         'glok40',
         'armani',
         'redda',
+        'luh tyler',
         'chris crack',
         'dc2trill',
         'tony shhnow',
@@ -66,6 +71,7 @@ const RapListBackground = () => {
         'top$ide',
         'amir',
         'evilgiane',
+        'bnyx',
         'cash cobain',
         'benjicold',
         'fish',
